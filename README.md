@@ -10,7 +10,7 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 byt
 ## 2 请求 info.cern.ch
 
 ```sh
-docker exec -it 349e309e7468 /bin/sh
+$ docker exec -it 349e309e7468 /bin/sh
 / # wget http://info.cern.ch
 Connecting to info.cern.ch (188.184.21.108:80)
 index.html           100% |*********************************************************************************************************************************|   646   0:00:00 ETA
@@ -158,4 +158,4 @@ index.html           100% |*****************************************************
 0 packets dropped by kernel
 ```
 
-可以看到 `tcp` 三次握手和四次挥手，以及 GET 请求和 HTTP 200 OK 的响应。
+可以看到 `tcp` 三次握手和四次挥手，以及 `GET` 请求和 `HTTP 200 OK` 的响应。
