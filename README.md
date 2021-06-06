@@ -10,6 +10,9 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 byt
 ## 2 请求 info.cern.ch
 
 ```sh
+$ docker ps
+CONTAINER ID   IMAGE           COMMAND                  CREATED              STATUS              PORTS     NAMES
+349e309e7468   corfr/tcpdump   "/usr/sbin/tcpdump -…"   About a minute ago   Up About a minute             epic_carver
 $ docker exec -it 349e309e7468 /bin/sh
 / # wget http://info.cern.ch
 Connecting to info.cern.ch (188.184.21.108:80)
