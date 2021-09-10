@@ -20,7 +20,7 @@ index.html           100% |*****************************************************
 / #
 ```
 
-## 查看 tcpdump 输出
+## 3 查看 tcpdump 输出
 
 ```sh
 02:43:32.879660 02:50:00:00:00:01 > f6:16:36:bc:f9:c6, ethertype IPv4 (0x0800), length 74: (tos 0x0, ttl 64, id 11612, offset 0, flags [DF], proto TCP (6), length 60)
